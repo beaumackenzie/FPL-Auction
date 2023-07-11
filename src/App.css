@@ -2,37 +2,58 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button.sel-button {
+  margin-left: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+div.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+
+div.select-player-table {
+  height: 600px;
+  width: 615px;
+  overflow: auto;
+  scrollbar-color: #73AD21 wheat;
+}
+
+div.auction-center {
+
+  margin-left: 125px;
+  margin-top: 25px;
+  display: flex;
+
+}
+
+div.auction-timer {
+
+  margin: 30px;
+
+}
+
+div.team-card {
+
+  margin-top: 115px;
+  width: 350px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
+table.yourTeamtable {
+  margin: 0 auto;
+  table-layout: fixed;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+::-webkit-scrollbar {
+  width: 5.5px;
+  background: #8e9f7641;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #23320e;
+  -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-corner {
+  background: #000;
 }
